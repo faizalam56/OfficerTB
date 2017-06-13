@@ -1,0 +1,69 @@
+<!--<resources>
+
+    &lt;!&ndash; Base application theme. &ndash;&gt;
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+    </style>
+
+</resources>-->
+
+
+<resources>
+
+<style name="AppTheme" parent="MyMaterialTheme.Base">
+
+</style>
+
+<style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">true</item>
+    <item name="colorPrimary">@color/colorPrimary1</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+</style>
+
+    <style name="DMCtheme" parent="MyDMCTheme.Base">
+
+    </style>
+    <style name="MyDMCTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="colorPrimary">@color/colorDmcPrimary</item>
+        <item name="colorPrimaryDark">@color/colorDmcPrimaryDark</item>
+        <item name="colorAccent">@color/colorDMCaccent</item>
+    </style>
+
+    <style name="STStheme" parent="MySTSTheme.Base">
+
+    </style>
+    <style name="MySTSTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="colorPrimary">@color/colorSTSPrimary</item>
+        <item name="colorPrimaryDark">@color/colorSTSPrimaryDark</item>
+        <item name="colorAccent">@color/colorSTSaccent</item>
+    </style>
+
+    <style name="MOPHItheme" parent="MyMOPHITheme.Base">
+
+    </style>
+    <style name="MyMOPHITheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="colorPrimary">@color/colorMOPHIPrimary</item>
+        <item name="colorPrimaryDark">@color/colorMOPHIPrimaryDark</item>
+        <item name="colorAccent">@color/colorMOPHIaccent</item>
+    </style>
+
+    <style name="AppStartTheme" parent="MyStartTheme.Base">
+
+    </style>
+
+    <style name="MyStartTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

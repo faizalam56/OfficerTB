@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">Officer TB</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_name">User ID</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="app_version">Version 15.0</string>
+    <string name="app_date">5 April 2016</string>
+
+
+
+    <!-- TODO: Error Messages -->
+
+    <string name="err_msg_name">Enter User ID</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+
+
+    <!-- TODO: Progress Text -->
+    <string name="progress_txt_1">Connecting...</string>
+    <string name="progress_txt_2">Sending...</string>
+    <string name="progress_txt_3">fetching...</string>
+
+
+    <!-- TODO: Buttons Titles -->
+
+    <string name="btn_sign_up">Sign in</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_submit">Submit</string>
+
+
+    <!-- TODO: TextView Titles -->
+    <!--***************************-->
+    <string name="txt_emp_name">Name</string>
+    <string name="txt_emp_designation">Designation</string>
+    <string name="txt_emp_contact">Contact No.</string>
+    <string name="txt_emp_join_date">Joining Date</string>
+
+    <!-- new Patient Registration-->
+
+    <string name="txt_refferring">Referring Facility</string>
+    <string name="txt_name_patient">Patient Name</string>
+    <string name="txt_state">State</string>
+    <string name="txt_distrtict">District</string>
+    <string name="txt_block">Block</string>
+    <string name="txt_village">Village</string>
+    <string name="txt_address">Address</string>
+    <string name="txt_disease">Disease Type</string>
+
+    <!-- Existing Patient Registration-->
+
+    <string name="txt_patient_id">Patient ID</string>
+    <string name="txt_sputum_date">Sputum Date</string>
+
+    <!-- Sputum Report Submit Fragment-->
+    <string name="txt_examine_date">Sputum Taken Date</string>
+    <string name="txt_report_date">Report Date</string>
+    <string name="txt_visual_appearance">Appearance(M,B,S)</string>
+    <string name="txt_result">Result</string>
+    <string name="txt_positive_grading">Positive(Grading)</string>
+
+    <string name="txt_3_positive">3+</string>
+    <string name="txt_2_positive">2+</string>
+    <string name="txt_1_positive">1+</string>
+    <string name="txt_scanty">Scanty**</string>
+
+
+    <!--#########################################-->
+
+    <!-- TODO: Text for Static Arrays -->
+
+
+    <string-array name="result_type">
+        <item name="result1">Positive</item>
+        <item name="result2">Negative</item>
+    </string-array>
+
+    <string-array name="appearance_type">
+        <item name="M">M</item>
+        <item name="B">B</item>
+        <item name="S">S</item>
+    </string-array>
+
+    <!-- TODO: Work of DMC Officer -->
+    <string-array name="dmc_work">
+        <item>New Patient Registration</item>
+        <item>Submit Sputum Details</item>
+        <item>Submit Sputum Result</item>
+        <item>View Patient Report</item>
+    </string-array>
+
+    <!-- TODO: Work of STS Officer -->
+    <string-array name="sts_work">
+        <item>Address Verification</item>
+        <!--<item>Address Verification</item>-->
+        <!--<item>Address Verification</item>-->
+    </string-array>
+
+
+    //////////////////// Start MOPHI /////////////////////////////
+
+    <!-- Patient Permanent Registration Fragment -->
+    <string name="txt_prmnt_reg_name">Patient Name</string>
+    <string name="txt_prmnt_reg_sex">Sex</string>
+    <string name="txt_prmnt_reg_age">Age</string>
+    <string name="txt_prmnt_reg_category">Regimen / Category</string>
+    <string name="txt_prmnt_reg_disease">Disease Classification</string>
+    <string name="txt_prmnt_reg_p_type">Patient Type</string>
+    <string name="txt_prmnt_reg_remarks">Remarks</string>
+    <string name="txt_prmnt_reg_date">Registration Date</string>
+
+        <!--     assign compliance methos    -->
+    <string name="txt_assign_comp_method">Compliance Method</string>
+    <string name="txt_assign_comp_dots_days">DOTS Days</string>
+    <string name="txt_assign_comp_dos_start_date">Start Date</string>
+
+    <!--     assign health worker    -->
+    <string name="txt_assign_health_worker_provider">Dots Provider</string>
+    <string name="txt_assign_health_worker_cpmlt_address">Complete Address</string>
+    <string name="txt_assign_health_worker_observer">Observer</string>
+
+    <string name="btn_assign_comp">Assign</string>
+
+
+    <!-- TODO: Work of MOPHI Officer -->
+    <string-array name="mophi_work">
+        <item>Patient Registration</item>
+        <item>Assign Compliance Method</item>
+        <item>Assign Health Worker</item>
+        <item>Extend Phase-1</item>
+        <item>View Report</item>
+
+    </string-array>
+
+    <string-array name="regiem_category">
+        <item name="category1">CAT I</item>
+        <item name="category2">CAT II</item>
+    </string-array>
+
+    <string-array name="sex_category">
+        <item name="cat1">Male</item>
+        <item name="cat2">Female</item>
+    </string-array>
+
+    <string-array name="patient_type">
+        <item name="patient1">New Case</item>
+        <item name="patient2">Transfer in</item>
+        <item name="patient2">Others</item>
+    </string-array>
+
+    <string-array name="disease_type">
+        <item name="disease1">Pulmonary</item>
+        <!--<item name="disease2"> Extra Pulmonary</item>-->
+    </string-array>
+    <string-array name="relationship_names">
+        <item name="relation1">Father</item>
+        <item name="relation2">Mother</item>
+        <item name="relation1">Brother</item>
+        <item name="relation1">Sister</item>
+        <item name="relation1">Husband</item>
+        <item name="relation1">Wife</item>
+        <item name="relation1">Neighbour</item>
+        <item name="relation1">Others</item>
+
+    </string-array>
+
+    <string-array name="compliance_method">
+        <item name="method1">Active Compliance Method</item>
+        <item name="method2">Direct Observation Method</item>
+
+    </string-array>
+<!--   <item name="method2">Observer Method</item>   -->
+    <string-array name="dot_days">
+        <item name="dot_days1">MON,WED,FRI</item>
+        <item name="dot_days2">TUE,THUR,SAT</item>
+
+    </string-array>
+
+    //////////////////// Close MOPHI /////////////////////////////
+
+    <!-- TODO: Alert dialog Titles -->
+
+    <string name="provider_about_header">Select DOTS Provider</string>
+    <string name="observer_about_header">Select Observer</string>
+
+    <string name="alert_sputum_submit_title">Caution</string>
+
+    <!-- TODO: Alert dialog Message -->
+
+    <string name="alert_sputum_submit_message">Are you sure you want to continue?</string>
+
+    <!-- TODO: Dialog Sucessful Messages -->
+    <string name="currentSputumCollection">Sputum Collected Successfully</string>
+    <string name="currentSputumResultSubmited">Sputum result submitted</string>
+
+
+
+    <!-- TODO: Dasignation Name of Officer -->
+
+    <string name="dmc">DMC(LT)</string>
+    <string name="sts">STS</string>
+    <string name="mophi">MOPHI</string>
+
+    <!-- TODO: address verification Titles -->
+
+    <string name="txt_state1">State</string>
+    <string name="txt_distt">District</string>
+    <string name="txt_city">City</string>
+    <string name="txt_villg">Village</string>
+    <string name="txt_addrs">Address</string>
+
+    <!-- TODO: Sorry Dialog Error Messages -->
+    <string name="pIdNotExist">Sorry Patient ID does not exist</string>
+    <string name="allSputumResultSubmited">Please submit sputum details first, before entering result. </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

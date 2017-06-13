@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary1">#1C5685</color>
+    <color name="colorPrimaryTransparent">#335f50e1</color>
+    <color name="colorPrimaryDark">#194366</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#335f50e1</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#1C5685</color>
+    <color name="colorStatusBar">#C8FE2E</color>
+
+    <color name="colorDMCaccent">#FF44738F</color>
+    <color name="colorDmcPrimary">#114C70</color>
+    <color name="colorDMCPrimaryTransparent">#33306A8F</color>
+    <color name="DMCwindowBackground">#33306A8F</color>
+    <color name="colorDmcPrimaryDark">#0D2D41</color>
+
+
+    <color name="colorSTSaccent">#388726</color>
+    <color name="colorSTSPrimary">#09A210</color>
+    <color name="colorSTSPrimaryTransparent">#3309A210</color>
+    <color name="STSwindowBackground">#3309A210</color>
+    <color name="colorSTSPrimaryDark">#154218</color>
+
+    <color name="colorMOPHIaccent">#C16D2E</color>
+    <color name="colorMOPHIPrimary">#FE8225</color>
+    <color name="colorMOPHIrimaryTransparent">#33FE8225</color>
+    <color name="MOPHIwindowBackground">#33FE8225</color>
+    <color name="colorMOPHIPrimaryDark">#BF5707</color>
+
+</resources>
